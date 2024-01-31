@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,8 +15,29 @@
 
     <!-- Font -->
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Scripts -->
+    <script src="assets/js/scripts.js"></script>
 </head>
 <body>
-    
+    <!-- Header -->
+    <header id="header" class="header"></header>
+    <script>
+        load("#header", "./template/header.html")
+    </script>
+
+    <!-- Main -->
+    <main>
+        <h1>main content</h1>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer"></footer>
+    <script>
+        load("#footer", "./template/footer.html")
+    </script>
 </body>
 </html>
