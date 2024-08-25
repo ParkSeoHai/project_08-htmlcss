@@ -1,14 +1,18 @@
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
-body, span {
-    font-size: 1.6rem;
-    font-family: 'Gordita', sans-serif;
+body {
+  font-size: 1.6rem;
+  font-family: "Gordita", sans-serif;
+  color: var(--text-color);
+  background-color: var(--body-bg-color);
 }
 
 a {
@@ -16,8 +20,20 @@ a {
   text-decoration: none;
 }
 
+button,
+input,
+textarea,
+select {
+  color: inherit;
+  font-family: inherit;
+}
+
 button {
   border: none;
   outline: none;
   background: transparent;
+}
+
+.icon {
+  filter: var(--icon-color);
 }
